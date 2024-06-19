@@ -11,9 +11,7 @@
   </div><!-- End Page Title -->
 
   <section class="section">
-    <div class="card">
-        <div class="card-body">
-          <a href="/admin/student/create" class="btn btn-primary my-4">+ Course</a>
+          <a href="/admin/course/create" class="btn btn-primary my-4">+ Course</a>
             <table class="table">
                 <tr>
                     <th>No</th>

@@ -14,4 +14,17 @@ class CourseController extends Controller
             'course'=> $course
         ]);
     }
+    
+
+    public function edit($id,)
+    {
+        // cari data student berdasarkan id
+        $courses = Course::find($id); // Select * FOM students WHERE id = $id;
+
+        $courses = Course::all();
+
+        return view('admin.contents.course.edit', [
+            'courses' => $courses,
+        ]);
+    }
 }
